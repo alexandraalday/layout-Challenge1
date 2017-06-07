@@ -8,3 +8,46 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+header, footer {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	margin: 10px;
+}
+
+header {
+	height: 100px;
+}
+
+#firstcolumn {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 300px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+
+#secondcolumn {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 300px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+
+#thirdcolumn {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31.25%;
+	height: 300px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px;
+}
