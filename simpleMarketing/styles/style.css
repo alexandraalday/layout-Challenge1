@@ -8,3 +8,65 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+header, footer {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	margin: 10px;
+}
+
+header {
+	height: 100px;
+}
+
+#firstrowleft{
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 48%;
+	height: 300px;
+	float: left;
+	margin: 10px 0 10px 10px;
+}
+
+#firstrowright {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 48%;
+	height: 300px;
+	float: right;
+	margin: 10px 10px 10px 0;
+}
+
+#secondrowleft {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+	clear: both;
+}
+
+#secondrowcenter {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+
+#secondrowright {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31.25%;
+	height: 100px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px;
+}
