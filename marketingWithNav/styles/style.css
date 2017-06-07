@@ -8,3 +8,76 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+header, footer {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	margin: 10px;
+}
+
+header {
+	height: 100px;
+	width: 200px;
+}
+
+nav {
+	float: right;
+	position: absolute;
+	margin: 15px 0px 10px 300px;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.menu li {
+    background-color: darkgrey;
+    border: 1px solid grey;
+    height: 50px;
+    width: 130px;
+    margin: 0 1em;
+    float: right;
+}
+
+#firstrow {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 97.25%;
+	height: 300px;
+	margin: 10px 0 10px 10px;
+}
+
+#secondrowleft {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+
+#secondrowcenter {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31%;
+	height: 100px;
+	float: left;
+	margin: 10px 10px 20px 10px;
+}
+
+#secondrowright {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 31.25%;
+	height: 100px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px;
+}
