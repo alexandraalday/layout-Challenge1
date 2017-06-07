@@ -1,0 +1,43 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	margin: 10px;
+}
+
+header {
+	height: 100px;
+}
+
+#firstcolumn {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 730px;
+	height: 300px;
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+#secondcolumn {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 235px;
+	height: 300px;
+	float: right;
+	margin: 0 10px 10px 0;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+}
