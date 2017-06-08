@@ -59,6 +59,7 @@ letterReverse("Now I know what a TV dinner feels like")
 letterReverse("Put Hans back on the line")
 
 
+
 //Round 6
 function longest(array){
 	var longestWord = '';
@@ -68,8 +69,10 @@ function longest(array){
         if (array[i].length > longestWord.length) {
         longestWord = array[i]
         } else if (array[i].length === longestWord.length){
-        		tie.push(array[i])		//missing something here to capture first instance of duplicate, but not quite sure what. HELP
-        		longestWord = tie[0]
+        		tie.push(array[i])	
+        		if (tie.length > 1) {
+        			longestWord = tie[0]
+				}
         	}
         }  
    console.log(longestWord)
@@ -77,6 +80,7 @@ function longest(array){
 
 longest(["oh", "good", "grief", "hello"])
 longest(["Nothing" , "takes", "the", "taste", "out", "of", "peanut", "butter", "quite", "like", "unrequited", "love"])
+
 
 
 //Final Round
