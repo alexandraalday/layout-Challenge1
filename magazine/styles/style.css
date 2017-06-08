@@ -8,3 +8,113 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+header, footer {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	margin: 10px;
+}
+
+header {
+	height: 150px;
+	width: 250px;
+}
+
+nav {
+	float: right;
+	position: absolute;
+	margin: 50px 0px 10px 350px;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.menu li {
+    background-color: darkgrey;
+    border: 1px solid grey;
+    height: 40px;
+    width: 100px;
+    margin: 0 10px;
+    float: right;
+}
+
+#leftsidebar {
+	background-color: darkgrey;
+    border: 1px solid grey;
+    height: 730px;
+    width: 175px;
+    float: left;
+    margin: 10px 10px 20px 10px;
+}
+
+#firstrow {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	float: right;
+	width: 790px;
+	height: 200px;
+	margin: 10px;
+}
+
+#secondrowleft {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	float: left;
+	width: 590px;
+	height: 300px;
+	margin: 10px;
+}
+
+#secondrowright {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	float: right;
+	width: 180px;
+	height: 300px;
+	margin: 10px;
+}
+
+#thirdrow1 {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 180px;
+	height: 175px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+#thirdrow2 {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 180px;
+	height: 175px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+#thirdrow3 {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 180px;
+	height: 175px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+#thirdrow4 {
+	background-color: darkgrey;
+	border: 1px solid grey;
+	width: 180px;
+	height: 175px;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	margin: 10px;
+}
